@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(221, 204, 238);
+}
+h5{
+   
+    color: rgb(75, 7, 138);
+}
+svg{
+    color: rgb(75, 7, 138);
+}
+div{
+    border-radius: 2cm;
+
+    border-color:rgb(2, 2, 2);
+}
+label{
+    color: rgb(75, 7, 138);;
+}
+i{
+    color:rgb(75, 7, 138) ;
+}
+.box1{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(170, 149, 193);
+    position: absolute;
+   top: 420px;
+   left: 20px;
+   z-index: 9;
+   opacity: 0.9;
+   border-radius: 0px;
+
+  
+   
+  
+
+
+}
+.box2{
+    width: 24em;
+    height: 200px;
+    background-color: rgb(75, 7, 138);
+    position: absolute;
+    font-size: 100%;
+    top:  35px;
+    left: 35px;
+    z-index: 5;
+    opacity: 0.6;
+    border-radius: 0px;
+    
+}
+.box3{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(170, 149, 193);
+    position: absolute;
+   top: 420px;
+   left: 520px;
+   z-index: 9;
+   opacity: 0.9;
+   border-radius: 0px;
+
+}
+.box4{
+    width: 24em;
+    height: 200px;
+    background-color: rgb(75, 7, 138);
+    position: absolute;
+    font-size: 100%;
+    top:  35px;
+    left: 35px;
+    z-index: 9;
+    opacity: 0.6;
+    border-radius: 0px;
+    
+}
+.box5{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(170, 149, 193);
+    position: absolute;
+   top: 420px;
+   left: 1020px;
+   z-index: 9;
+    opacity: 0.9;
+    border-radius: 0;
+   
+   
+}
+.box6{
+    width: 24em;
+    height: 200px;
+    background-color: rgb(75, 7, 138);
+    position: absolute;
+    font-size: 100%;
+    top:  35px;
+    left: 35px;
+    z-index: 9;
+    opacity: 0.6;
+  
+    border-radius: 0px;
+    
+}
+.container {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    
+  }
+  

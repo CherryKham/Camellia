@@ -1,0 +1,9 @@
+section{
+    display: flex;
+}
+nav,main,aside{
+    height: 400px;
+    background-color: cyan;
+    margin: 10px;
+    flex-grow: 3;
+}
