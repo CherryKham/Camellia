@@ -1,0 +1,239 @@
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript">
+        function displayTeam(btn){
+            if(btn.value=="WP"){alert("yes,you are now studying Web programming")}
+            if(btn.value="ASP"){alert("no,you ar ent sduding")}
+            if(btn.value="JAVA"){alert("no,now you are studying JAVA")}
+        }
+    </script>
+</head>
+<body>
+    <P> 
+    click on the subject that u are studying </P>
+    <form>
+        <input type="button" value="WP" onclick="displayTeam(this)">
+        <input type="button" value="JAVA" onclick="displayTeam(this)">
+        <input type="button" value="ASP" onclick="displayTeam(this)">
+    </form>
+</body>
+</html>
+-->
+
+
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javacript">
+        function setPort(form){
+            if(form.mouse.checked){
+                form.mousePort.checked=true
+                form.modem.checked=true
+                form.keyboard.checked=true
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h3>Check all accessories for your computer</h3>
+        <input type="checkbox" name="colorMonitor">Color monitor
+        <input type="checkbox" name="mouse" onclick="setPort(this.form)">mouse
+        <input type="checkbox" name="mousePort">mouse Port
+        <input type="checkbox" name="modem">modem
+        <input type="checkbox" name="keyboard">keyboard
+      
+    </form>
+</body>
+</html>
+-->
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javaScript">
+        function full_name(form){
+        for(var i=0; i<form.storage.length;i++)
+        {
+            if(form.storage[i].checked){
+                break
+            }
+
+        }
+        alert("you chose " + form.storage[i].value + "." )
+    }
+    </script>
+</head>
+<body>
+<form >
+    <b>select your favourite storage</b>
+    <input type="radio" name="storage" value="moe howard" checked>mode
+    <input type="radio" name="storage" value="larry" >Larry
+    <input type="radio" name="storage" value="culy">culy
+    <input type="radio" name="storage" value="shemp" >shemp
+    <input type="button" name="viewer" value="view full name..." onclick="full_name(this.form)" >
+  
+</form>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script language="javaScript">
+    function inspect(form){
+        indexnumber=form.colorlist.selectedIndex
+        alert("you choose "+ form.colorlist.options[indexnumber].text)
+    }
+</script>
+<body>
+    <form action="">
+        <select name="colorlist" id="">
+            <option value="red" selected>red</option>
+            <option value="plants">green</option>
+            <option value="blue">blue</option>
+            <input type="button" value="show stuff" onclick="inspect(this.form)">
+        </select>
+    </form>
+    
+</body>
+</html>
+-->
+
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javaScript">
+        function view(form){
+            var res=""
+            for(var i=0; i<form.acclist.length;i++){
+                if(form.acclist.options[i].selected){
+                    res +="\n " + form.acclist.options[i].text
+                }
+            }
+            alert("you have selected: " + res)
+
+        }
+    </script>
+</head> 
+<body>
+    <form action="">
+        <center>
+            contron/command-click on all accessories that u use
+            <select name="acclist" size="9 multiple">
+                <option value="">modem</option>
+                <option value="">lase printer</option>
+                <option value="">tape backup</option>
+                <option value="">camera</option>
+                <option value="">Brush</option>
+                <input type="button" value="view" onclick="view(this.form)">
+            </select>
+        </center>
+    </form>
+</body>
+</html>
+-->
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function seeColor(form){
+            newcolor=(form.colorslist.options[form.colorslist.selectedIndex].value)
+            document.fgcolor=newcolor
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <p>Choose a background color:</p>
+        <select name="colorslist" onchange="seeColor(this.form)">
+        <option value="cornflowerblue" selected>cornflower blue</option>
+        <option value="darksalmon">dark salmon</option>
+        <option value="lightgoldenrodyellow">light golden yellow</option>
+        <option value="seagreen">sea green</option>
+    </select>
+    </form>
+    <p>This is foreground color testing</p>
+</body>
+</html>
+-->
+
+<!--
+
+<!DOCTYPE html>
+<html>
+<body>
+Select some of the text: <input type="text" value="Hello world!" onselect="myFunction()">
+<script>
+function myFunction() {
+  alert("You selected some text!");
+}
+</script>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="emojilaugh-emoji.gif" alt="Smiley" width="32" height="32">
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+</script>
+
+</body>
+</html>
+-->
+

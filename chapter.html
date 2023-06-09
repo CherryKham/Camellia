@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--BLURRING CONTRENT-->
+<body>
+    <p>This example demonstrates how to assigned
+        <p>Write something in th einput field, and then click outside the field to lose focus(Blur)</p>
+        <input type="text" onblur="myFunction()">
+        <script> function myFunction(){
+            alert("input field lost focus.");
+        }</script>
+    </p>
+    <!--Chage backgroud color of the input background-->
+    <p>
+        When u enter the input field, a function is triggered which sets the background color to yellow. When you leave the input field, a function is triggered which sets the background color to red
+        Enter Your name: <input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()">
+         <script>
+            function focusFunction(){
+                //focus=Changes the background color of the input to yellow
+                document.getElementById("myInput").style.background="yellow";
+            }
+            function blurFunction(){
+                //No focus =Changes the backgriund color of input
+                document.getElementById("myInput").style.background="red";
+
+            }
+        
+         </script>
+         <br>
+         <br>
+    <img src="./img/Final3.jpeg" alt="Books" width="32" height="32" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+    <p>The function bigImg() is triggered when the user moves th emouse pointer over the image.</p>
+    <p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+    <script>
+        function bigImg(x){
+            x.style.height="64px";
+            x.style.width="64";
+        }
+        function normalImg(x){
+            x.style.height="32px";
+            x.style.width="32px";
+        }
+    </script>
+    </p>
+    <br>
+    <br>
+    Select some of the text: <input type="text" value="Hello World" onselect="mylulu()">
+    <script>
+        function mylulu(){
+            alert("you selected some text");
+        }
+    </script>
+    <br><br> 
+    <form>
+        choose a background color: 
+       <select name="colorslist" onchange="seeColor(this.form)"> 
+            <option selected value="cornflowerblue">cornflower blue 
+            <option value="darksalmon">dark salmon 
+            <option value="lightgoldenrodyellow">light goldenrod yellow 
+            <option value="seagreen">sea green 
+       </select> 
+       </form> 
+       <script language="javaScript">
+        function seeColor(form) { 
+            newcolor = (form.colorslist.options[form.colorslist.selectedIndex].value) 
+            document.bgColor=newcolor 
+       } 
+       </script
+</body>
+</html>

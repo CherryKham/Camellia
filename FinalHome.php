@@ -12,8 +12,18 @@
     <link rel="stylesheet" href="icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="finalproject.css">
+   
+    
     <style>
+        .logo {
+            display:flex;
+            justify-content: center;
+            align-items: center;
         
+            
+            
+        }
+       
     </style>
 </head>
 <body>
@@ -22,28 +32,35 @@
         <div class="container-fluid">
             <h1  class="navbar-brand" style="color: rgb(75, 7, 138);"><img class="conten" src="./img/C1.webp" alt="" style="width: 40px; height: 40px; border-radius: 1cm;"> Camellia  </h1>
             <ul class="navbar-nav">
-                    <li class="nav-item" style="padding-left: 10px;">
-                        
-                        <span class="input-group mb-3">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-list"></i></button>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-item">One</li>
-                                    <li class="dropdown-item">Two</li>
-                                    <li class="dropdown-driver"></li>
-                                    <li> <a href="#" class="dropdown-item">Preview</a></li>
-                                </ul>
-                            </div>
-                        </span>
-                    </li>
-                    
-                    
+        
+                <li class="nav-item">
+                    <a href="Fprivacy.php" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" href="FinalHome.php" class="nav-link">Why Camellia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="finallReg.php" class="nav-link"style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" >Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="Finallogin.php" class="nav-link" style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" >Login</a>
+                  </li>
+                       
             </ul>
             
         </div>
     </nav>
     <div>
-        <h1 style="background-image: url(./img/Final7.jpeg); width: 100%; height: 400px; color: white; text-align: center; text-size-adjust: 20px; text-decoration: overline;"> Feed Your Heart Dear!
+        <h1 style="background-image: url(./img/Final7.jpeg); width: 100%; height: 400px;"> 
+            <div style="color: aliceblue; text-align: center; text-size-adjust: 20px;font-style: italic; font-weight: lighter; font-size: 25px; font-family: 'Times New Roman', Times, serif">
+                <p>Feed Your Heart Dear!</p> 
+            <p>Explore The world of Novel</p>
+            <p>Romance</p>
+            <p> Mystery</p>
+            <p> Action</p>
+            <p>Adventure</p>
+            <p>Comedy</p>
+            </div>
         </h1>
     </div>
 <span>
@@ -61,7 +78,7 @@
 </div>
 </div>
 </span>
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="card" style="width: 100%; height: 600px; background-color:rgb(143, 102, 181); color: white; ">
     <div class="card-body">
@@ -75,20 +92,24 @@
         
       
         </p>
-        <img class="conten" src="./img/Final5.jpeg" alt="" style="width: 500px; height: 500px;">
+        <img class="content" src="./img/Final5.jpeg" alt="" style="width: 500px; height: 500px;">
     </span>
     </div>
 </div>
 <br>
 <br>
 
-<span class="container">
+
+
+
     
-    <img class="content" src="./img/C3.jpeg" alt="" style="width: 10px; height: 10px; border-radius: 1cm;">
-   <h2 class="content">
-           Camellia
-        </h2>
-    </span>
+<div class="container1">
+    <div class="logo">
+<img src="./img/C3.jpeg" style="width: 40px; height: 40px; border-radius: 1cm;" alt=""> &nbsp; <h3> Camellia</h3>
+    </div>
+
+</div>
+
     <center>
     <span> <p> Camellia, Inc.
     </p>
@@ -98,7 +119,7 @@
 <p> CN EID: 482-87-02045</p>
 <p>Email: wangyibo85@gamil.com</p>
 <p>091246758899</p>
-<a href="./Fprivacy.html">Privacy Terms</a>
+<a href="./Fprivacy.html">Privacy Terms </a>
 <p> Copyright &copy; Fairwaytechnology &trade;</p>
 
 </span>

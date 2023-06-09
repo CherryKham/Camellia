@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(221, 204, 238);
-}
+
 h5{
    
     color: rgb(75, 7, 138);
@@ -35,6 +33,9 @@ i{
   
 
 
+}
+body{
+    background-color: rgb(221, 204, 238);
 }
 .box2{
     width: 24em;
@@ -109,4 +110,8 @@ i{
     flex: 1;
     
   }
-  
+ div.h1
+    {
+        color: rgba(78, 23, 20, 0.5)
+ }
+ 
