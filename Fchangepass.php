@@ -62,7 +62,7 @@
 
 <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-light" >
     <div class="container-fluid">
-        <h1  class="navbar-brand" style="color: rgb(75, 7, 138);"><img class="conten" src="./img/C1.webp" alt="" style="width: 40px; height: 40px; border-radius: 1cm;"> Camellia  </h1>
+        <h1  class="navbar-brand" style="color: rgb(75, 7, 138);"><img class="conten" src="./img/Res11.avif" alt="" style="width: 40px; height: 40px; border-radius: 1cm;"> Camellia  </h1>
         <ul class="navbar-nav">
         
                 <li class="nav-item">

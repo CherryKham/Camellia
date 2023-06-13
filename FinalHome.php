@@ -7,7 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>HOME</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
@@ -23,27 +23,27 @@
             
             
         }
-       
+
+        
+
+      
     </style>
 </head>
 <body>
    
     <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-light" >
         <div class="container-fluid">
-            <h1  class="navbar-brand" style="color: rgb(75, 7, 138);"><img class="conten" src="./img/C1.webp" alt="" style="width: 40px; height: 40px; border-radius: 1cm;"> Camellia  </h1>
+            <h1  class="navbar-brand" style="color: rgba(121, 157, 138, 0.722);"><img class="conten" src="./img/Res11.avif" alt="" style="width: 40px; height: 40px; border-radius: 1cm;"> Camellia  </h1>
             <ul class="navbar-nav">
         
                 <li class="nav-item">
-                    <a href="Fprivacy.php" class="nav-link">About Us</a>
+                    <a href="Finallogin.php" class="nav-link" style="color: rgba(121, 157, 138, 0.722); font-size: 17px; font-weight: bold;" >About us</a>
                   </li>
                   <li class="nav-item">
-                    <a  style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" href="FinalHome.php" class="nav-link">Why Camellia</a>
+                    <a href="finallReg.php" class="nav-link"style="color: rgba(121, 157, 138, 0.722); font-size: 17px; font-weight: bold;" >Register</a>
                   </li>
                   <li class="nav-item">
-                    <a href="finallReg.php" class="nav-link"style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" >Register</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="Finallogin.php" class="nav-link" style="color:rgb(75, 7, 138); font-size: 17px; font-weight: bold;" >Login</a>
+                    <a href="Finallogin.php" class="nav-link" style="color: rgba(121, 157, 138, 0.722); font-size: 17px; font-weight: bold;" >Login</a>
                   </li>
                        
             </ul>
@@ -51,7 +51,7 @@
         </div>
     </nav>
     <div>
-        <h1 style="background-image: url(./img/Final7.jpeg); width: 100%; height: 400px;"> 
+        <h1 style="background-image: url(./img/Res11.avif); width: 100%; height: 400px;"> 
             <div style="color: aliceblue; text-align: center; text-size-adjust: 20px;font-style: italic; font-weight: lighter; font-size: 25px; font-family: 'Times New Roman', Times, serif">
                 <p>Feed Your Heart Dear!</p> 
             <p>Explore The world of Novel</p>
@@ -65,22 +65,22 @@
     </div>
 <span>
 <div class="box1"> <h4 style="color: white;"> Hey! Love</h4>
-    <div class="box2"><h5 style="color: white; text-align: center;">  <br> Present Your Literature To The World</h5></div> 
+    <div class="box2"><h5 style="color: rgba(121, 157, 138, 0.722); text-align: center;">  <br> Present Your Literature To The World</h5></div> 
 </div>
 
 <div class="box3"> <h4 style="color: white;"> Hey! Love</h4>
-    <div class="box4"><h5 style="color: white; text-align: center;">  <br> Present Your Literature To The World</h5></div> 
+    <div class="box4"><h5 style="color:rgba(121, 157, 138, 0.722); text-align: center;">  <br> Present Your Literature To The World</h5></div> 
 </div>
 </div>
 
 <div class="box5"> <h4 style="color: white;"> Hey! Love</h4>
-    <div class="box6"><h5 style="color: white; text-align: center;">  <br> Present Your Literature To The World</h5></div> 
+    <div class="box6"><h5 style="color: rgba(121, 157, 138, 0.722); text-align: center;">  <br> Present Your Literature To The World</h5></div> 
 </div>
 </div>
 </span>
 <br><br><br><br><br><br><br><br><br><br><br>
 
-<div class="card" style="width: 100%; height: 600px; background-color:rgb(143, 102, 181); color: white; ">
+<div class="card" style="width: 100%; height: 600px; background-color:rgba(121, 157, 138, 0.722); color: white; ">
     <div class="card-body">
         
         <h5 class="card-title">What is "Camellia?"</h5>
@@ -92,7 +92,7 @@
         
       
         </p>
-        <img class="content" src="./img/Final5.jpeg" alt="" style="width: 500px; height: 500px;">
+        <img class="content" src="./img/fcake8.jpeg" alt="" style="width: 500px; height: 500px;">
     </span>
     </div>
 </div>
@@ -105,7 +105,7 @@
     
 <div class="container1">
     <div class="logo">
-<img src="./img/C3.jpeg" style="width: 40px; height: 40px; border-radius: 1cm;" alt=""> &nbsp; <h3> Camellia</h3>
+<img src="./img/Res11.avif" style="width: 40px; height: 40px; border-radius: 1cm;" alt=""> &nbsp; <h3> Camellia</h3>
     </div>
 
 </div>

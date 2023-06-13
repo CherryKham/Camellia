@@ -1,89 +1,77 @@
 
 h5{
    
-    color: rgb(75, 7, 138);
+    color: rgba(121, 157, 138, 0.722);
 }
 svg{
-    color: rgb(75, 7, 138);
+    color:  rgba(121, 157, 138, 0.722);
 }
 div{
     border-radius: 2cm;
 
-    border-color:rgb(2, 2, 2);
+    border-color: rgba(121, 157, 138, 0.722);
 }
 label{
-    color: rgb(75, 7, 138);;
+    color:  rgba(121, 157, 138, 0.722);
 }
 i{
-    color:rgb(75, 7, 138) ;
-}
+    color: rgba(121, 157, 138, 0.722);}
 .box1{
     width: 350px;
     height: 200px;
-    background-color: rgb(170, 149, 193);
+    background-color: rgba(121, 157, 138, 0.722);
+
     position: absolute;
    top: 420px;
    left: 20px;
-   z-index: 9;
-   opacity: 0.9;
    border-radius: 0px;
-
-  
-   
-  
-
-
 }
 body{
-    background-color: rgb(221, 204, 238);
+    background-color: rgb(223, 241, 231);
 }
 .box2{
     width: 24em;
     height: 200px;
-    background-color: rgb(75, 7, 138);
+    background-color: white;
+
     position: absolute;
     font-size: 100%;
     top:  35px;
     left: 35px;
-    z-index: 5;
-    opacity: 0.6;
+   
     border-radius: 0px;
     
 }
 .box3{
     width: 350px;
     height: 200px;
-    background-color: rgb(170, 149, 193);
+    background-color: rgba(121, 157, 138, 0.722);
     position: absolute;
    top: 420px;
    left: 520px;
-   z-index: 9;
-   opacity: 0.9;
    border-radius: 0px;
 
 }
 .box4{
     width: 24em;
     height: 200px;
-    background-color: rgb(75, 7, 138);
+    background-color:white;
+
     position: absolute;
     font-size: 100%;
     top:  35px;
     left: 35px;
-    z-index: 9;
-    opacity: 0.6;
     border-radius: 0px;
     
 }
 .box5{
     width: 350px;
     height: 200px;
-    background-color: rgb(170, 149, 193);
+    background-color:rgba(121, 157, 138, 0.722);
+
     position: absolute;
    top: 420px;
    left: 1020px;
-   z-index: 9;
-    opacity: 0.9;
     border-radius: 0;
    
    
@@ -91,14 +79,12 @@ body{
 .box6{
     width: 24em;
     height: 200px;
-    background-color: rgb(75, 7, 138);
+    background-color:white;
+
     position: absolute;
     font-size: 100%;
     top:  35px;
-    left: 35px;
-    z-index: 9;
-    opacity: 0.6;
-  
+    left: 35px;  
     border-radius: 0px;
     
 }
@@ -112,6 +98,18 @@ body{
   }
  div.h1
     {
-        color: rgba(78, 23, 20, 0.5)
+        color:rgba(121, 157, 138, 0.722);
  }
+
+ form{
+    background-color: rgba(121, 157, 138, 0.722);
+    border-radius: 0.3cm;
+}
+i{
+    color:rgba(121, 157, 138, 0.722);
+}
  
+a{
+    color:rgba(121, 157, 138, 0.722);
+
+}

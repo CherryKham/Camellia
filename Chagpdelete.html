@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delete Selected Row</title>
+    <style>
+        .selected {
+            background-color: #ffcccc;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td><button class="delete-button">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td><button class="delete-button">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bob Johnson</td>
+                <td><button class="delete-button">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var table = document.querySelector("table");
+            var tbody = table.querySelector("tbody");
+
+            tbody.addEventListener("click", function(event) {
+                var target = event.target;
+                if (target.classList.contains("delete-button")) {
+                    var row = target.parentNode.parentNode;
+                    row.remove();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
